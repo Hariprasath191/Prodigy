@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Laptop A",
+      "price": "$799",
+      "rating": "4.5"
+    },
+    {
+      "name": "Laptop B",
+      "price": "$899",
+      "rating": "4.8"
+    },
+    {
+      "name": "Laptop C",
+      "price": "$999",
+      "rating": "4.7"
+    }
+  ]
+  

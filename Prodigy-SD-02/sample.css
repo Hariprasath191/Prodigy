@@ -1,0 +1,32 @@
+.main{
+    background-color: rgb(157, 255, 133);
+    width: 100mm;
+   font-size: 40px;
+   border: 1px solid black;
+   padding: 10mm;
+   margin: auto;
+ 
+}
+.main:hover{
+    background-color: rgb(185, 161, 252)  ;
+    transition: 2s;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    font-family: 'Times New Roman';
+}
+
+button{
+    font-size: 30px;
+    background-color: rgb(110, 193, 241)
+}
+input{
+    font-size: 30px;
+}
+button:hover{
+    background-color: rgb(143, 233, 107);
+    
+    transition:1s;
+}

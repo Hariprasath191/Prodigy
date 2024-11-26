@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Document</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <h1>Welcome to Guess the Number Game </h1>
+    <h2>The number ranges from 0 to 9 </h2>
+    <script src="sample.js"></script>
+
+    <div class="main">
+        <input type="number" name="number1" id="input1" placeholder="Enter any number" required>
+        <button id="btn-1" onclick="checkNumber() " >Check</button>
+        <p class="output">You entered : </p>
+        <p class="status"></p>
+        <p class="Answer"></p>
+
+        <button id="btn-show" onclick="getNumber()"> Answer </button>
+        
+        <button onclick="window.location.reload()">Start again </button>
+        <br>
+        <br>
+        <div class="attempt">Attempts left: 5</div>
+    </div>
+    
+
+</body>
+</html>
